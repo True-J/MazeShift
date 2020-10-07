@@ -1,0 +1,65 @@
+#picture{
+    width: 900px;
+    height: 450px;
+    border: black 5px solid;
+}
+.map{
+    position: relative;
+    left: 720px;
+    top: 250px;
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+}
+.box{
+    border: white 1px solid;
+}
+#box00{background: black;}
+#box01{background: black;}
+#box02{background: black;}
+#box03{background: black;}
+#box04{background: black;}
+#box05{background: black;}
+#box06{background: black;}
+#box10{background: black;}
+#box11{background: black;}
+#box12{background: black;}
+#box13{background: black;}
+#box14{background: black;}
+#box15{background: black;}
+#box16{background: black;}
+#box20{background: black;}
+#box21{background: black;}
+#box22{background: white;}
+#box23{background: white;}
+#box24{background: white;}
+#box25{background: black;}
+#box26{background: black;}
+#box30{background: black;}
+#box31{background: black;}
+#box32{background: white;}
+#box33{background: white;}
+#box34{background: white;}
+#box35{background: black;}
+#box36{background: black;}
+#box40{background: black;}
+#box41{background: black;}
+#box42{background: white;}
+#box43{background: white;}
+#box44{background: white;}
+#box45{background: black;}
+#box46{background: black;}
+#box50{background: black;}
+#box51{background: black;}
+#box52{background: black;}
+#box53{background: black;}
+#box54{background: black;}
+#box55{background: black;}
+#box56{background: black;}
+#box60{background: black;}
+#box61{background: black;}
+#box62{background: black;}
+#box63{background: black;}
+#box64{background: black;}
+#box65{background: black;}
+#box66{background: black;}
