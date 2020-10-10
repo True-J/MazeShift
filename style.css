@@ -23,20 +23,6 @@
     left: 950px;
     top: 75px;
 }
-#restart{
-    display: none;
-    position: relative;
-    background-color: black;
-    color: red;
-    font-family: fantasy;
-    font-size: xx-large;
-    text-align: center justify;
-    border: 5px darkred solid;
-    left: 950px;
-    bottom: 350px;
-    height: 100px;
-    width: 200px;
-}
 .dirbutton{
     text-align: center;
     padding: 10px;
