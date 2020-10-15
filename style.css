@@ -29,6 +29,25 @@
     width: 125px;
     height: 45px;
 }
+#comlabel{
+    font-weight: bold;
+    padding: 3px;
+    border: 2px black solid;
+    position: absolute;
+    top: 430px;
+    left: 25px;
+}
+#command{
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    padding: 4.5px;
+    border: 2px black solid;
+    position: absolute;
+    top: 430px;
+    left: 143px;
+    width: 500px;
+}
 #b0{
     display: block;
 }

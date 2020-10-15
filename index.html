@@ -58,30 +58,35 @@
                 <div id= "box65" class="box"></div>
                 <div id= "box66" class="box"></div>
             </div>
-            <input type="text" id="command" />
+            <div id="comminput">
+                <label for="command" id="comlabel">Type Text Here:</label>
+                <input type="text" id="command" placeholder="Speak" />
+            </div>
         </div>
         <br />
-        <input type="hidden" id="mapid" value="45" onchange="mapchange()" />
-        <input type="hidden" id="level" value="0" />
+        <input type="hidden" id="mapid" value="1" onchange="mapchange()" />
+        <input type="hidden" id="level" value="3" />
+        <input type="hidden" id="is12active" value="0" />
 
         <div id="directions">
 
-            <button type="button" id="b0" class="dirbutton" onclick="roomchange(0)">N</button>
+            <button type="button" id="b0" class="dirbutton" onclick="mapchange(0)">N</button>
 
-            <button type="button" id="b1" class="dirbutton" onclick="roomchange(1)">NE</button>
+            <button type="button" id="b1" class="dirbutton" onclick="mapchange(1)">NE</button>
 
-            <button type="button" id="b2" class="dirbutton" onclick="roomchange(2)">E</button>
+            <button type="button" id="b2" class="dirbutton" onclick="mapchange(2)">E</button>
 
-            <button type="button" id="b3" class="dirbutton" onclick="roomchange(3)">SE</button>
+            <button type="button" id="b3" class="dirbutton" onclick="mapchange(3)">SE</button>
 
-            <button type="button" id="b4" class="dirbutton" onclick="roomchange(4)">S</button>
+            <button type="button" id="b4" class="dirbutton" onclick="mapchange(4)">S</button>
 
-            <button type="button" id="b5" class="dirbutton" onclick="roomchange(5)">SW</button>
+            <button type="button" id="b5" class="dirbutton" onclick="mapchange(5)">SW</button>
 
-            <button type="button" id="b6" class="dirbutton" onclick="roomchange(6)">W</button>
+            <button type="button" id="b6" class="dirbutton" onclick="mapchange(6)">W</button>
 
-            <button type="button" id="b7" class="dirbutton" onclick="roomchange(7)">NW</button>
+            <button type="button" id="b7" class="dirbutton" onclick="mapchange(7)">NW</button>
         </div>
     </body>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="variables.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </html>
