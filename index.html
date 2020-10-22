@@ -7,6 +7,57 @@
     </head>
     <body>
         <div id="picture">
+            <div class="puzzle">
+                <div id= "pbox00" class="pbox"></div>
+                <div id= "pbox01" class="pbox"></div>
+                <div id= "pbox02" class="pbox"></div>
+                <div id= "pbox03" class="pbox"></div>
+                <div id= "pbox04" class="pbox"></div>
+                <div id= "pbox05" class="pbox"></div>
+                <div id= "pbox06" class="pbox"></div>
+                <div id= "pbox10" class="pbox"></div>
+                <div id= "pbox11" class="pbox"></div>
+                <div id= "pbox12" class="pbox"></div>
+                <div id= "pbox13" class="pbox"></div>
+                <div id= "pbox14" class="pbox"></div>
+                <div id= "pbox15" class="pbox"></div>
+                <div id= "pbox16" class="pbox"></div>
+                <div id= "pbox20" class="pbox"></div>
+                <div id= "pbox21" class="pbox"></div>
+                <div id= "pbox22" class="pbox"></div>
+                <div id= "pbox23" class="pbox"></div>
+                <div id= "pbox24" class="pbox"></div>
+                <div id= "pbox25" class="pbox"></div>
+                <div id= "pbox26" class="pbox"></div>
+                <div id= "pbox30" class="pbox"></div>
+                <div id= "pbox31" class="pbox"></div>
+                <div id= "pbox32" class="pbox"></div>
+                <div id= "pbox33" class="pbox"></div>
+                <div id= "pbox34" class="pbox"></div>
+                <div id= "pbox35" class="pbox"></div>
+                <div id= "pbox36" class="pbox"></div>
+                <div id= "pbox40" class="pbox"></div>
+                <div id= "pbox41" class="pbox"></div>
+                <div id= "pbox42" class="pbox"></div>
+                <div id= "pbox43" class="pbox"></div>
+                <div id= "pbox44" class="pbox"></div>
+                <div id= "pbox45" class="pbox"></div>
+                <div id= "pbox46" class="pbox"></div>
+                <div id= "pbox50" class="pbox"></div>
+                <div id= "pbox51" class="pbox"></div>
+                <div id= "pbox52" class="pbox"></div>
+                <div id= "pbox53" class="pbox"></div>
+                <div id= "pbox54" class="pbox"></div>
+                <div id= "pbox55" class="pbox"></div>
+                <div id= "pbox56" class="pbox"></div>
+                <div id= "pbox60" class="pbox"></div>
+                <div id= "pbox61" class="pbox"></div>
+                <div id= "pbox62" class="pbox"></div>
+                <div id= "pbox63" class="pbox"></div>
+                <div id= "pbox64" class="pbox"></div>
+                <div id= "pbox65" class="pbox"></div>
+                <div id= "pbox66" class="pbox"></div>
+            </div>
             <div class="map">
                 <div id= "box00" class="box"></div>
                 <div id= "box01" class="box"></div>
@@ -58,14 +109,56 @@
                 <div id= "box65" class="box"></div>
                 <div id= "box66" class="box"></div>
             </div>
+            <div id="spiderlang">
+                <div id="word0" class="langbox">
+                    <div id="spword0">-</div>
+                </div>
+                <div id="word1" class="langbox">
+                    <div id="spword1">-</div>
+                </div>
+                <div id="word2" class="langbox">
+                    <div id="spword2">-</div>
+                </div>
+            </div>
+            <div id="spilanginput">
+                <input type="hidden" id="spilangcount" value="0" />
+                <input type="hidden" id="spitext0" value="0" />
+                <input type="hidden" id="spitext1" value="0" />
+                <input type="hidden" id="spitext2" value="0" />
+                <button type="button" class="spibutton" id="slb00" onclick="talkspiderdel()">Delete</button>
+                <button type="button" class="spibutton" id="slb01" onclick="talktospider(1)">$</button>
+                <button type="button" class="spibutton" id="slb02" onclick="talktospider(2)">+</button>
+                <button type="button" class="spibutton" id="slb03" onclick="talktospider(3)">@</button>
+                <button type="button" class="spibutton" id="slb04" onclick="talktospider(4)">#</button>
+                <button type="button" class="spibutton" id="slb05" onclick="talktospider(5)">/</button>
+                <button type="button" class="spibutton" id="slb06" onclick="talktospider(6)">=</button>
+                <button type="button" class="spibutton" id="slb07" onclick="talktospider(7)">[</button>
+                <button type="button" class="spibutton" id="slb08" onclick="talktospider(8)">)</button>
+                <button type="button" class="spibutton" id="slb09" onclick="talktospider(9)">%</button>
+                <button type="button" class="spibutton" id="slb19" onclick="spiderresponse()">Enter</button>
+                <button type="button" class="spibutton" id="slb10" onclick="talktospider(10)">&</button>
+                <button type="button" class="spibutton" id="slb11" onclick="talktospider(11)">~</button>
+                <button type="button" class="spibutton" id="slb12" onclick="talktospider(12)">^</button>
+                <button type="button" class="spibutton" id="slb13" onclick="talktospider(13)">!</button>
+                <button type="button" class="spibutton" id="slb14" onclick="talktospider(14)">?</button>
+                <button type="button" class="spibutton" id="slb15" onclick="talktospider(15)">></button>
+                <button type="button" class="spibutton" id="slb16" onclick="talktospider(16)">;</button>
+                <button type="button" class="spibutton" id="slb17" onclick="talktospider(17)">|</button>
+                <button type="button" class="spibutton" id="slb18" onclick="talktospider(18)">:</button>
+            </div>
             <div id="comminput">
-                <label for="command" id="comlabel">Type Text Here:</label>
-                <input type="text" id="command" placeholder="Speak" />
+                <input type="text" id="command" placeholder="What is the Password?" />
+            </div>
+            <div id="spitext">
+                <p id="spitexthere">The Spider looks at you. <br>' ? + > '<br> he says.</p>
+                <input type="hidden" id="spiresp0" value="0" />
+                <input type="hidden" id="spiresp1" value="0" />
+                <input type="hidden" id="spiresp2" value="0" />
             </div>
         </div>
         <br />
-        <input type="hidden" id="mapid" value="1" onchange="mapchange()" />
-        <input type="hidden" id="level" value="3" />
+        <input type="hidden" id="mapid" value="45" />
+        <input type="hidden" id="level" value="0" />
         <input type="hidden" id="is12active" value="0" />
 
         <div id="directions">
@@ -89,4 +182,5 @@
     </body>
     <script type="text/javascript" src="variables.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="dialogue.js"></script>
 </html>

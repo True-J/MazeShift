@@ -3,16 +3,110 @@
     height: 450px;
     border: black 5px solid;
 }
-.map{
+.puzzle{
     position: relative;
     left: 720px;
-    top: 270px;
+    top: 30px;
     display: grid;
     grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
     grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
 }
+.map{
+    position: relative;
+    left: 720px;
+    top: 130px;
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+}
+.pbox{
+    opacity: 1;
+    margin: 1px;
+}
 .box{
-    border: white 1px solid;
+    display: block;
+    border: 1px darkslategrey transparent;
+}
+#spitext{
+    display: none;
+    position: relative;
+    margin: 25px;
+    top: -425px;
+    background-color: black;
+    width: 300px;
+    height: 125px;
+    border: 3px darkblue solid;
+}
+#spitexthere{
+    position: relative;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    color: white;
+    margin: auto;
+    top: 20%;
+}
+#spiderlang{
+    display: none;
+    position: absolute;
+    background-color: darkslategrey;
+    border: 2px black solid;
+    width: 250px;
+    height: 75px;
+    left: 350px;
+    top: 300px;
+}
+.langbox{
+    position: relative;
+    font-size: xx-large;
+    background-color: white;
+    border: 2px black solid;
+    width: 50px;
+    height: 50px;
+}
+#word0{
+    left: 10px;
+    top: 10px;
+}
+#spword0{
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+}
+#word1{
+    left: 97.5px;
+    top: -44px;
+}
+#spword1{
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+}
+#word2{
+    left: 185px;
+    top: -98px;
+}
+#spword2{
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+    margin: auto;
+    
+}
+#spilanginput{
+    display: none;
+    position: relative;
+    justify-content: center;
+    left: 250px;
+    top: 100px;
+    width: 400px;
+    height: 150px;
+}
+.spibutton{
+    margin: 2px;
+    font-size: large;
 }
 #directions{
     position: absolute;
@@ -29,13 +123,8 @@
     width: 125px;
     height: 45px;
 }
-#comlabel{
-    font-weight: bold;
-    padding: 3px;
-    border: 2px black solid;
-    position: absolute;
-    top: 430px;
-    left: 25px;
+#comminput{
+    display: none;
 }
 #command{
     font-weight: bold;
